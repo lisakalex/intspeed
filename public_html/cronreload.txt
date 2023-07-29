@@ -1,0 +1,3 @@
+* * * * * /bin/bash -l -c 'date > ~/cron-test-intspeed.txt'
+* * * * * /var/www/html/internetspeed/intspeed.py
+#*/2 * * * * /var/www/html/internetspeed/intspeed.py
